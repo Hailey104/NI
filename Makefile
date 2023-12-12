@@ -11,7 +11,7 @@ LIBFLAGS = -l$(LIBS)
 LDFLAGS += -L/usr/lib/x86_64-linux-gnu
 endif
 
-TARGET = WriteDigPort
+TARGET = ReadDigPort
 
 OBJS = $(TARGET).o
 
